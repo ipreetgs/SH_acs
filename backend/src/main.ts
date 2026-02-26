@@ -1,0 +1,1 @@
+import { NestFactory } from '@nestjs/core'; \nimport { AppModule } from './app.module'; \n\nasync function bootstrap() { \n  const app = await NestFactory.create(AppModule); \n  app.enableCors(); \n  await app.listen(3000); \n  console.log(`Smart Bulb Backend Ecosystem running on http://localhost:3000`); \n } \nbootstrap(); \n

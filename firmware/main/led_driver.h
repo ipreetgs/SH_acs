@@ -1,0 +1,1 @@
+#pragma once\n\n#include <stdint.h>\n#include <stdbool.h>\n\n#ifdef __cplusplus\nextern "C" {\n#endif\n\nvoid led_driver_init(void);\nvoid led_driver_set_rgb(uint8_t r, uint8_t g, uint8_t b);\nvoid led_driver_set_brightness(uint8_t brightness);\nvoid led_driver_get_state(bool *is_on, uint8_t *brightness, uint8_t *r, uint8_t *g, uint8_t *b);\n\n#ifdef __cplusplus\n}\n#endif\n

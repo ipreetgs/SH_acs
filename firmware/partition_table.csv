@@ -1,0 +1,1 @@
+# Name,   Type, SubType, Offset,  Size, Flags\nnvs,      data, nvs,     ,        0x6000,\notadata,  data, ota,     ,        0x2000,\nphy_init, data, phy,     ,        0x1000,\nfactory,  app,  factory, ,        2M,\nota_0,    app,  ota_0,   ,        2M,\nota_1,    app,  ota_1,   ,        2M,\n
